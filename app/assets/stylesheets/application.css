@@ -45,7 +45,7 @@ header.main-header {
   max-width: 1700px;
   height: 46px;
   background: #777;
-  position:static;
+  position:relative;
 }
 
 .clear-float {
