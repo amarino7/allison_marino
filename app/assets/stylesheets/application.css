@@ -313,7 +313,7 @@ p {
     width: 100%;
 }
 /* Slide 1 */
-#slide-1 .bcg {background-color: purple;}
+/*#slide-1 .bcg {background-color: purple;}
 
 #slide-2 .bcg {
     background: none;
@@ -322,10 +322,10 @@ p {
     text-align: center
 }
 
-#slide-3 .bcg {background-color: red; }
+#slide-3 .bcg {background-color: red; }*/
 
 /* Slide 4 */
-.curtainContainer {
+/*.curtainContainer {
     width: 100%; height: 100%;
     position: relative;
 }
