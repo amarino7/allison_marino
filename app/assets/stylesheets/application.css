@@ -259,8 +259,8 @@ p {
   display: inline-block;
   width: 200px;
   margin-left: 180px; /* 560 - image width / 2 */
-  margin-right: 180px; /* //560 - image width / 2 */
-}
+  /*margin-right: 180px; *//* //560 - image width / 2 */
+/*}
 
 .image-carousel-container #left-button {
   background: url("/assets/left-arrow.png");
@@ -280,10 +280,10 @@ p {
   width: 80px;
   height: 100px;
   z-index:1;
-}*/
+}*/*/
 /* MAIN CONTENT SECTION END */
 
-.hsContainer {
+/*.hsContainer {
     display: table;
     table-layout: fixed;
     width: 100%;
@@ -338,4 +338,4 @@ p {
     width: 100%; text-align: center;
 }
 #slide-4 .bcg {background-image:url('https://d262ilb51hltx0.cloudfront.net/max/421/1*s0D6xNJQKJHdgAIUdyke6w.jpeg')}
-
+*/

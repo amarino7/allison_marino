@@ -10,10 +10,11 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require skrollr
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require skrollr
+
 //= require_tree .
 
 // ( function( $ ) {
@@ -26,10 +27,14 @@
 //     });
 // } )( jQuery );
 
-function(skrollr){
-    var s = skrollr.init();
-});
 
-// $(document).on('page:load', function () {
-// skrollr.init().refresh(); 
-// });4
+// function(skrollr){
+
+//     var s = skrollr.init();
+//     console.log("JavaScript is working!");
+// });
+
+$(document).on('page:load', function () {
+skrollr.init().refresh(); 
+});
+console.log("JS is working");
