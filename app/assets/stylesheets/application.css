@@ -45,7 +45,9 @@ header.main-header {
   max-width: 1700px;
   height: 46px;
   background: #777;
-  position:relative;
+  position: relative;
+  /*position: fixed;
+  width: 100%;*/
 }
 
 .clear-float {
@@ -110,22 +112,6 @@ a.mail-icon {
   margin-bottom:0px;
   margin-top:0px;
   text-align:center;
-}
-
-img.lower-left-image {
-  /* browser dependent, for browser compatibility for an image it's better to just change the actual image itself */
-  /* it's hard to find a chinese character white image! If the requirement wasn't an image this would probably be a native
-  chinese character font */
-  -webkit-filter: invert(100%); 
-  height: 30px;
-}
-
-img.upper-right-image {
-  /* browser dependent, for browser compatibility for an image it's better to just change the actual image itself */
-  /* it's hard to find a chinese character white image! If the requirement wasn't an image this would probably be a native
-  chinese character font */  
-  -webkit-filter: invert(100%);
-  height: 30px;
 }
 
 /* HEADER END */
@@ -216,6 +202,77 @@ p {
 
 /* MAIN CONTENT SECTION END */
 
+.div_bar {
+	width: 100%;
+	height: 200px;
+	background-color: #777;
+	color: white;
+	margin-top: -1px;
+}
+
+.div_text_bar {
+	width:560px;
+  margin: 0 auto;
+	text-align: center;	
+}
+
+.div_text_bar a {
+	text-decoration: none;
+	color: white;
+}
+
+.div_text_bar h3 {
+	border-bottom: 1px solid white;
+	font-size: 25px; 
+	padding-top: 10px;
+}
+
+.who_brings {
+	background: url("http://i.imgur.com/NenSOeQ.png") no-repeat center center fixed;
+	width: 100%;
+	height: 1200px;
+	background-size: cover;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.who_brings:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.insterest {
+	background: url("http://i.imgur.com/qCnAXEh.png") no-repeat center center fixed;
+	width: 100%;
+	height: 1200px;
+	background-size: cover;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.insterest:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.wine11 {
+	background: url("http://i.imgur.com/sEQypL1.png") no-repeat center center fixed;
+	width: 100%;
+	height: 1200px;
+	background-size: cover;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.wine11:hover {
+	filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+/* Parallax Skroll begin */
 /*.hsContainer {
     display: table;
     table-layout: fixed;
@@ -240,7 +297,7 @@ p {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 100%;*/
 }
 /* Slide 1 */
 /*#slide-1 .bcg {background-color: purple;}
@@ -270,5 +327,6 @@ p {
     bottom: 30%; left: 0;
     width: 100%; text-align: center;
 }
-#slide-4 .bcg {background-image:url('https://d262ilb51hltx0.cloudfront.net/max/421/1*s0D6xNJQKJHdgAIUdyke6w.jpeg')}
-*/
+#slide-4 .bcg {background-image:url('https://d262ilb51hltx0.cloudfront.net/max/421/1*s0D6xNJQKJHdgAIUdyke6w.jpeg')}*/
+
+/* End of Parallax skroll */
