@@ -46,8 +46,8 @@ header.main-header {
   height: 46px;
   background: #777;
   position: relative;
-  /*position: fixed;
-  width: 100%;*/
+  /*position: fixed;*/
+  /*width: 100%;*/
 }
 
 .clear-float {
@@ -297,7 +297,7 @@ p {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
-    width: 100%;*/
+    width: 100%;
 }
 /* Slide 1 */
 /*#slide-1 .bcg {background-color: purple;}
