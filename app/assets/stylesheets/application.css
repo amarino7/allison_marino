@@ -84,7 +84,7 @@ a.resume-icon {
 }
 
 a.github-icon {
-  background-image: url('data:image/png;base64,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');
+  background-image: url('https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png');
   background-repeat: no-repeat;
   background-size:contain;
 }
@@ -185,7 +185,7 @@ img.grayscale:hover {
 .profile-content-container {
   width:560px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   background-color: RGBA(34, 34, 34, .35);
 }
 
@@ -201,7 +201,7 @@ h2 {
 ul {
   color: #fff;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'Pontano Sans', sans-serif;
@@ -212,7 +212,7 @@ li {
   font-family: 'Pontano Sans', sans-serif;
 }
 h3 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   margin-top: 1px;
   color: white;
@@ -240,7 +240,7 @@ p {
 .div_text_bar {
 	width:560px;
   margin: 0 auto;
-	text-align: center;	
+	text-align: left;	
 }
 
 .insterest_text_container a {
@@ -316,7 +316,7 @@ p {
 .whoBrings_text_container {
 	width:100%;
   margin: 0 auto;
-	text-align: center;	
+	text-align: left;	
 	margin-top: 30px;
 }
 
@@ -357,7 +357,7 @@ p {
 .insterest_text_container {
 	width:100%;
   margin: 0 auto;
-	text-align: center;	
+	text-align: left;	
 	margin-top: 40px;
 }
 
@@ -389,7 +389,7 @@ p {
 .wine11_text_container {
 	width:100%;
   margin: 0 auto;
-	text-align: center;	
+	text-align: left;	
 	margin-top: 40px;
 }
 
