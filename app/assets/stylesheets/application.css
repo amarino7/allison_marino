@@ -30,7 +30,7 @@ body {
 
 /* HEADER & FOOTER BEGIN */
 h1.main-title {
-  font-size: 45px;
+  font-size: 3em;
   font-family: 'Tangerine', cursive;
   text-align: center;
   color: #008b8b;
@@ -285,9 +285,9 @@ p {
   -webkit-filter: grayscale(0%);
 }*/
 
-.whoBrings_container {
+/*.whoBrings_container {
 	background-color: #353537;
-}
+}*/
 
 .whoBrings_image_container {
 	background: url("http://i.imgur.com/NenSOeQ.png");
@@ -336,9 +336,9 @@ p {
 	border-bottom: 1px solid white;
 }
 
-.insterest_container {
+/*.insterest_container {
 	background-color: #353537;
-}
+}*/
 
 .insterest_image_container {
 	background: url("http://i.imgur.com/qCnAXEh.png");
@@ -368,9 +368,9 @@ p {
 	border-bottom: 1px solid white;
 }
 
-.wine11_container {
+/*.wine11_container {
 	background-color: #353537;
-}
+}*/
 
 .wine11_image_container {
 	background: url("http://i.imgur.com/sEQypL1.png");
